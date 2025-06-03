@@ -35,11 +35,11 @@ export async function summarizeText(text: string): Promise<string> {
                 DO NOT INCLUDE ANY SOCIAL SECURITY NUMBERS.
                 DO NOT INCLUDE ANY MEDICAL RECORD NUMBERS.
                 DO NOT INCLUDE ANY HEALTH INSURANCE NUMBERS.
+                DO NOT INCLUDE ANY REDACTED DATA.
 
               WHAT YOU NEED TO DO:
                 Please read the provided report and explain what it means in simple, everyday language.
                 Focus on the key findings and any recommended next steps.
-                Exclude any information that in format [REDACTED] . 
                 Be accurate and do not add any information not in the report.
                 exclude any PHI as per HIPPA regulations.
                `,
